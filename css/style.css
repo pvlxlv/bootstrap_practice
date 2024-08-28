@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@400;600&family=Quicksand:wght@300..700&display=swap");
+.quicksand-300 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.nunito-200 {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  background: #0e0e0e;
+  padding-top: 72px;
+  font-family: "Quicksand", sans-serif;
+  color: #e2e2e2;
+}
+
+h1 {
+  margin-bottom: 24px;
+  font-size: calc(2.6rem + 1.5vw);
+  font-weight: 800;
+  font-family: "Nunito", sans-serif;
+}
+
+h2 {
+  font-size: calc(2.1rem + 1.5vw);
+  margin-bottom: 40px;
+}
+
+.navbar {
+  margin-bottom: 68px;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #e2e2e2;
+}
+.nav-link:hover {
+  color: #8D8D8D;
+}
+
+.border-light {
+  text-decoration: none;
+  color: #e2e2e2;
+}
+.border-light:hover {
+  color: #8D8D8D;
+}
+
+.make_dream {
+  color: #e2e2e2;
+}
+.make_dream .banner-img {
+  margin-bottom: 157px;
+}
+.make_dream p {
+  color: #8D8D8D;
+  margin-bottom: 32px;
+}
+.make_dream a {
+  margin-bottom: 40px;
+}
+
+.about_us {
+  margin-bottom: 150px;
+}
+.about_us .about-text {
+  margin-bottom: 40px;
+}
+
+.services .service-card.service-card-4 .service-img_container, .services .service-card.service-card-3 .service-img_container, .services .service-card.service-card-2 .service-img_container, .services .service-card.service-card-1 .service-img_container {
+  background-color: #e2e2e2;
+  padding: 24px;
+  border-radius: 200px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.services {
+  margin-bottom: 130px;
+}
+.services .service-card.service-card-2 .service-img_container {
+  background-color: #FF4646;
+}
+.services .service-card.service-card-3 .service-img_container {
+  background-color: #8EEA77;
+}
+.services .service-card.service-card-4 .service-img_container {
+  background-color: #FFB21A;
+}
+
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1240px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    gap: 40px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

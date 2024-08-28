@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@400;600&family=Quicksand:wght@300..700&display=swap');
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+.quicksand-300 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+.nunito-200 {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
+
+
+//@media (max-width: 767px) {
+//  .contact {
+//    display: none;
+//  }
+//}
+
+$black: #0e0e0e;
+$primary-grey: #e2e2e2;
+$secondary-grey: #8D8D8D;
+$red: #FF4646;
+$green: #8EEA77;
+$yellow: #FFB21A;
+
+body {
+  background: $black;
+  padding-top: 72px;
+  font-family: "Quicksand", sans-serif;
+  color: $primary-grey;
+}
+
+h1 {
+  margin-bottom: 24px;
+  font-size: calc(2.6rem + 1.5vw);
+  font-weight: 800;
+  font-family: "Nunito", sans-serif;
+}
+
+h2 {
+  font-size: calc(2.1rem + 1.5vw);
+  margin-bottom: 40px;
+}
+
+.navbar {
+  margin-bottom: 68px;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: $primary-grey;
+  &:hover {
+    color: $secondary-grey;
+  }
+}
+
+.border-light {
+  text-decoration: none;
+  color: $primary-grey;
+  &:hover {
+    color: $secondary-grey;
+  }
+}
+
+.make_dream {
+  color: $primary-grey;
+  .banner-img {
+    margin-bottom: 157px;
+  }
+  p {
+    color: $secondary-grey;
+    margin-bottom: 32px;
+  }
+  a {
+    margin-bottom: 40px;
+  }
+}
+
+.about_us {
+  margin-bottom: 150px;
+  .about-text {
+    margin-bottom: 40px;
+  }
+}
+
+%service-img-bg {
+  background-color: $primary-grey;
+  padding: 24px;
+  border-radius: 200px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+
+.services {
+  margin-bottom: 130px;
+  .service-card {
+    &.service-card-1 {
+      .service-img_container{
+        @extend %service-img-bg;
+      }
+    }
+    &.service-card-2 {
+      .service-img_container{
+        @extend %service-img-bg;
+        background-color: $red;
+      }
+    }
+    &.service-card-3 {
+      .service-img_container{
+        @extend %service-img-bg;
+        background-color: $green;
+      }
+    }
+    &.service-card-4 {
+      .service-img_container{
+        @extend %service-img-bg;
+        background-color: $yellow;
+      }
+    }
+  }
+}
+
+.portfolio {
+
+}
+
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1240px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    gap: 40px;
+  }
+}
+
