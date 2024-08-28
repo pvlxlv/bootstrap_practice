@@ -151,9 +151,21 @@ h2 {
   }
 }
 
-.portfolio {
-
+.portfolio-examples {
+  .text-bg-dark {
+    color: #fff !important;
+    background-color: $black !important;
+  }
+  img {
+    margin-bottom: 32px;
+  }
+  .card-img-overlay {
+    top: initial;
+    bottom: 12%;
+  }
 }
+
+
 
 @media (min-width: 1400px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
@@ -161,9 +173,15 @@ h2 {
   }
 }
 
+
+
+
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav {
     gap: 40px;
   }
 }
+
+
 

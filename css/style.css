@@ -112,6 +112,18 @@ h2 {
   background-color: #FFB21A;
 }
 
+.portfolio-examples .text-bg-dark {
+  color: #fff !important;
+  background-color: #0e0e0e !important;
+}
+.portfolio-examples img {
+  margin-bottom: 32px;
+}
+.portfolio-examples .card-img-overlay {
+  top: initial;
+  bottom: 12%;
+}
+
 @media (min-width: 1400px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: 1240px;
